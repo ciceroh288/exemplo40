@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Cicero Henrique</h1>
+    <hr />
     
 </body>
 </html>
