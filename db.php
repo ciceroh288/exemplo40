@@ -11,5 +11,6 @@ function banco($sql) {
 
 
 pg_close($conn);
+return $resultado;
 }
 ?>

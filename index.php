@@ -1,6 +1,5 @@
 <?php
 require("db.php");
-banco("");
 banco("DROP TABLE IF EXISTS usuario");
 echo "ok";
 ?>
