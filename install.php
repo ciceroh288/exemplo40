@@ -8,9 +8,9 @@ $sql  = "CREATE TABLE usuario (";
 $sql .= "codigo SERIAL NOT NULL,";
 $sql .= "nome VARCHAR(250),";
 $sql .= "email VARCHAR (100),";
-$sql .= " senha VARCHAR(100),";
+$sql .= "senha VARCHAR(100),";
 $sql .= "PRIMARY KAY (codigo),";
 $sql .= ");";
-banco ($sql);
+banco($sql);
 echo "<p>DB: Tabela usuario criada...</p>";
 ?>
