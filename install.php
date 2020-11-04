@@ -16,6 +16,10 @@ echo "<p>DB: Tabela usuario criada...</p>";
 
 $sql  = "INSERT INTO usuario (nome, email, senha) ";
 $sql .= "VALUES ('Fulano de Tal', 'fulano@gmail.com', '1');";
+$sql  = "INSERT INTO usuario (nome, email, senha) ";
+$sql .= "VALUES ('Beltrano de Tal', 'beltrano@gmail.com', '1');";
+$sql  = "INSERT INTO usuario (nome, email, senha) ";
+$sql .= "VALUES ('Cicrano de Tal', 'cicrano@gmail.com', '1');";
 banco($sql);
 echo "<p>DB: Tabela usuario populada</p>";
 ?>
