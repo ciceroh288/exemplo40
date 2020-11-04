@@ -11,6 +11,6 @@ $sql .= "email VARCHAR (100),";
 $sql .= " senha VARCHAR(100),";
 $sql .= "PRIMARY KAY (codigo),";
 $sql .= ");";
-banco($sql);
+banco ($sql);
 echo "<p>DB: Tabela usuario criada...</p>";
 ?>
